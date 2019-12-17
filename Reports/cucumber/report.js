@@ -3,7 +3,7 @@ formatter.feature({
   "comments": [
     {
       "line": 1,
-      "value": "# language: pt"
+      "value": "#language:pt"
     }
   ],
   "line": 4,
@@ -33,7 +33,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "informo o filme \"\u003cfilme\u003e\" e ano de lançamento \"\u003cano\u003e\"",
+  "name": "informo o filme \"\u003cfilme\u003e\" e ano de lancamento \"\u003cano\u003e\"",
   "keyword": "E "
 });
 formatter.step({
@@ -130,7 +130,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "informo o filme \"Avatar\" e ano de lançamento \"2009\"",
+  "name": "informo o filme \"Avatar\" e ano de lancamento \"2009\"",
   "matchedColumns": [
     2,
     3
@@ -161,8 +161,9 @@ formatter.match({
   "location": "PesquisaFilmesGoogleSteps.que_informo_o_diretor_e_o_ano_de_nascimento(String,String)"
 });
 formatter.result({
-  "duration": 7993485064,
-  "status": "passed"
+  "duration": 11206367600,
+  "error_message": "org.openqa.selenium.WebDriverException: Unrecognized platform: windows nt\nBuild info: version: \u00273.5.2\u0027, revision: \u002710229a9\u0027, time: \u00272017-08-21T17:29:55.15Z\u0027\nSystem info: host: \u0027LAPTOP-9VR82EJD\u0027, ip: \u0027192.168.15.72\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.Platform.fromString(Platform.java:300)\r\n\tat org.openqa.selenium.Capabilities.getPlatform(Capabilities.java:46)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.toString(RemoteWebDriver.java:1100)\r\n\tat java.util.Formatter$FormatSpecifier.printString(Unknown Source)\r\n\tat java.util.Formatter$FormatSpecifier.print(Unknown Source)\r\n\tat java.util.Formatter.format(Unknown Source)\r\n\tat java.util.Formatter.format(Unknown Source)\r\n\tat java.lang.String.format(Unknown Source)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.setFoundBy(RemoteWebElement.java:62)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.setFoundBy(RemoteWebDriver.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:489)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:303)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)\r\n\tat br.sp.core.BasePage.write(BasePage.java:18)\r\n\tat br.sp.pages.GoogleHomePage.setCampoPesquisa(GoogleHomePage.java:10)\r\n\tat br.sp.steps.PesquisaFilmesGoogleSteps.que_informo_o_diretor_e_o_ano_de_nascimento(PesquisaFilmesGoogleSteps.java:24)\r\n\tat ✽.Dado que informo o diretor \"James Cameron\" e o ano de nascimento \"16 de agosto de 1954\"(PesquisaFilmesGoogle.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -175,25 +176,22 @@ formatter.match({
       "offset": 46
     }
   ],
-  "location": "PesquisaFilmesGoogleSteps.informo_o_filme_e_ano_de_lançamento(String,String)"
+  "location": "PesquisaFilmesGoogleSteps.informo_o_filme_e_ano_de_lancamento(String,String)"
 });
 formatter.result({
-  "duration": 72456976,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "PesquisaFilmesGoogleSteps.clico_em_pesquisar()"
 });
 formatter.result({
-  "duration": 1558361322,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "PesquisaFilmesGoogleSteps.recebo_o_total_de_resultados_para_a_pesquisa()"
 });
 formatter.result({
-  "duration": 32713257,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 15,
@@ -220,7 +218,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "informo o filme \"Titanic\" e ano de lançamento \"1997\"",
+  "name": "informo o filme \"Titanic\" e ano de lancamento \"1997\"",
   "matchedColumns": [
     2,
     3
@@ -251,8 +249,9 @@ formatter.match({
   "location": "PesquisaFilmesGoogleSteps.que_informo_o_diretor_e_o_ano_de_nascimento(String,String)"
 });
 formatter.result({
-  "duration": 520763273,
-  "status": "passed"
+  "duration": 361408361,
+  "error_message": "org.openqa.selenium.WebDriverException: Unrecognized platform: windows nt\nBuild info: version: \u00273.5.2\u0027, revision: \u002710229a9\u0027, time: \u00272017-08-21T17:29:55.15Z\u0027\nSystem info: host: \u0027LAPTOP-9VR82EJD\u0027, ip: \u0027192.168.15.72\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.Platform.fromString(Platform.java:300)\r\n\tat org.openqa.selenium.Capabilities.getPlatform(Capabilities.java:46)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.toString(RemoteWebDriver.java:1100)\r\n\tat java.util.Formatter$FormatSpecifier.printString(Unknown Source)\r\n\tat java.util.Formatter$FormatSpecifier.print(Unknown Source)\r\n\tat java.util.Formatter.format(Unknown Source)\r\n\tat java.util.Formatter.format(Unknown Source)\r\n\tat java.lang.String.format(Unknown Source)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.setFoundBy(RemoteWebElement.java:62)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.setFoundBy(RemoteWebDriver.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:489)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:303)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)\r\n\tat br.sp.core.BasePage.write(BasePage.java:18)\r\n\tat br.sp.pages.GoogleHomePage.setCampoPesquisa(GoogleHomePage.java:10)\r\n\tat br.sp.steps.PesquisaFilmesGoogleSteps.que_informo_o_diretor_e_o_ano_de_nascimento(PesquisaFilmesGoogleSteps.java:24)\r\n\tat ✽.Dado que informo o diretor \"James Cameron\" e o ano de nascimento \"16 de agosto de 1954\"(PesquisaFilmesGoogle.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -265,25 +264,22 @@ formatter.match({
       "offset": 47
     }
   ],
-  "location": "PesquisaFilmesGoogleSteps.informo_o_filme_e_ano_de_lançamento(String,String)"
+  "location": "PesquisaFilmesGoogleSteps.informo_o_filme_e_ano_de_lancamento(String,String)"
 });
 formatter.result({
-  "duration": 93167885,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "PesquisaFilmesGoogleSteps.clico_em_pesquisar()"
 });
 formatter.result({
-  "duration": 1085482969,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "PesquisaFilmesGoogleSteps.recebo_o_total_de_resultados_para_a_pesquisa()"
 });
 formatter.result({
-  "duration": 122696315,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 16,
@@ -310,7 +306,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "informo o filme \"Vingadores: Ultimato\" e ano de lançamento \"2019\"",
+  "name": "informo o filme \"Vingadores: Ultimato\" e ano de lancamento \"2019\"",
   "matchedColumns": [
     2,
     3
@@ -341,8 +337,9 @@ formatter.match({
   "location": "PesquisaFilmesGoogleSteps.que_informo_o_diretor_e_o_ano_de_nascimento(String,String)"
 });
 formatter.result({
-  "duration": 438151304,
-  "status": "passed"
+  "duration": 283477928,
+  "error_message": "org.openqa.selenium.WebDriverException: Unrecognized platform: windows nt\nBuild info: version: \u00273.5.2\u0027, revision: \u002710229a9\u0027, time: \u00272017-08-21T17:29:55.15Z\u0027\nSystem info: host: \u0027LAPTOP-9VR82EJD\u0027, ip: \u0027192.168.15.72\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.Platform.fromString(Platform.java:300)\r\n\tat org.openqa.selenium.Capabilities.getPlatform(Capabilities.java:46)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.toString(RemoteWebDriver.java:1100)\r\n\tat java.util.Formatter$FormatSpecifier.printString(Unknown Source)\r\n\tat java.util.Formatter$FormatSpecifier.print(Unknown Source)\r\n\tat java.util.Formatter.format(Unknown Source)\r\n\tat java.util.Formatter.format(Unknown Source)\r\n\tat java.lang.String.format(Unknown Source)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.setFoundBy(RemoteWebElement.java:62)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.setFoundBy(RemoteWebDriver.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:489)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:303)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)\r\n\tat br.sp.core.BasePage.write(BasePage.java:18)\r\n\tat br.sp.pages.GoogleHomePage.setCampoPesquisa(GoogleHomePage.java:10)\r\n\tat br.sp.steps.PesquisaFilmesGoogleSteps.que_informo_o_diretor_e_o_ano_de_nascimento(PesquisaFilmesGoogleSteps.java:24)\r\n\tat ✽.Dado que informo o diretor \"Stan Lee\" e o ano de nascimento \"28 de dezembro de 1922\"(PesquisaFilmesGoogle.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -355,25 +352,22 @@ formatter.match({
       "offset": 60
     }
   ],
-  "location": "PesquisaFilmesGoogleSteps.informo_o_filme_e_ano_de_lançamento(String,String)"
+  "location": "PesquisaFilmesGoogleSteps.informo_o_filme_e_ano_de_lancamento(String,String)"
 });
 formatter.result({
-  "duration": 126212603,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "PesquisaFilmesGoogleSteps.clico_em_pesquisar()"
 });
 formatter.result({
-  "duration": 1247137021,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "PesquisaFilmesGoogleSteps.recebo_o_total_de_resultados_para_a_pesquisa()"
 });
 formatter.result({
-  "duration": 29129620,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 17,
@@ -400,7 +394,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "informo o filme \"Homem de Ferro 1\" e ano de lançamento \"2002\"",
+  "name": "informo o filme \"Homem de Ferro 1\" e ano de lancamento \"2002\"",
   "matchedColumns": [
     2,
     3
@@ -431,8 +425,9 @@ formatter.match({
   "location": "PesquisaFilmesGoogleSteps.que_informo_o_diretor_e_o_ano_de_nascimento(String,String)"
 });
 formatter.result({
-  "duration": 361180489,
-  "status": "passed"
+  "duration": 346876406,
+  "error_message": "org.openqa.selenium.WebDriverException: Unrecognized platform: windows nt\nBuild info: version: \u00273.5.2\u0027, revision: \u002710229a9\u0027, time: \u00272017-08-21T17:29:55.15Z\u0027\nSystem info: host: \u0027LAPTOP-9VR82EJD\u0027, ip: \u0027192.168.15.72\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.Platform.fromString(Platform.java:300)\r\n\tat org.openqa.selenium.Capabilities.getPlatform(Capabilities.java:46)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.toString(RemoteWebDriver.java:1100)\r\n\tat java.util.Formatter$FormatSpecifier.printString(Unknown Source)\r\n\tat java.util.Formatter$FormatSpecifier.print(Unknown Source)\r\n\tat java.util.Formatter.format(Unknown Source)\r\n\tat java.util.Formatter.format(Unknown Source)\r\n\tat java.lang.String.format(Unknown Source)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.setFoundBy(RemoteWebElement.java:62)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.setFoundBy(RemoteWebDriver.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:489)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:303)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)\r\n\tat br.sp.core.BasePage.write(BasePage.java:18)\r\n\tat br.sp.pages.GoogleHomePage.setCampoPesquisa(GoogleHomePage.java:10)\r\n\tat br.sp.steps.PesquisaFilmesGoogleSteps.que_informo_o_diretor_e_o_ano_de_nascimento(PesquisaFilmesGoogleSteps.java:24)\r\n\tat ✽.Dado que informo o diretor \"Stan Lee\" e o ano de nascimento \"28 de dezembro de 1922\"(PesquisaFilmesGoogle.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -445,24 +440,21 @@ formatter.match({
       "offset": 56
     }
   ],
-  "location": "PesquisaFilmesGoogleSteps.informo_o_filme_e_ano_de_lançamento(String,String)"
+  "location": "PesquisaFilmesGoogleSteps.informo_o_filme_e_ano_de_lancamento(String,String)"
 });
 formatter.result({
-  "duration": 139182177,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "PesquisaFilmesGoogleSteps.clico_em_pesquisar()"
 });
 formatter.result({
-  "duration": 2552472632,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "PesquisaFilmesGoogleSteps.recebo_o_total_de_resultados_para_a_pesquisa()"
 });
 formatter.result({
-  "duration": 31131070,
-  "status": "passed"
+  "status": "skipped"
 });
 });
