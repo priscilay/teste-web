@@ -8,7 +8,7 @@ import br.sp.pages.GoogleHomePage;
 import br.sp.pages.GooglePesquisaPage;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.E;
-import cucumber.api.java.pt.Então;
+import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
 
 public class PesquisaFilmesGoogleSteps {
@@ -24,8 +24,8 @@ public class PesquisaFilmesGoogleSteps {
 		googleHome.setCampoPesquisa(nome + " ");
 	}
 
-	@E("^informo o filme \"([^\"]*)\" e ano de lançamento \"([^\"]*)\"$")
-	public void informo_o_filme_e_ano_de_lançamento(String nome, String anoDeLancamento) throws Exception {
+	@E("^informo o filme \"([^\"]*)\" e ano de lancamento \"([^\"]*)\"$")
+	public void informo_o_filme_e_ano_de_lancamento(String nome, String anoDeLancamento) throws Exception {
 //		filme.addFilme(nome, anoDeLancamento);
 		googleHome.setCampoPesquisa(nome);
 	}
@@ -35,7 +35,7 @@ public class PesquisaFilmesGoogleSteps {
 		googleHome.subtmit();
 	}
 
-	@Então("^recebo o total de resultados para a pesquisa$")
+	@Entao("^recebo o total de resultados para a pesquisa$")
 	public void recebo_o_total_de_resultados_para_a_pesquisa() throws Exception {
 		System.out.println(googlePesquisa.getResultadoAproximadamente());
 	}

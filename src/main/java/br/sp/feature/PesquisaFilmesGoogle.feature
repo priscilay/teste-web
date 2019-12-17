@@ -1,11 +1,11 @@
-# language: pt
+#language:pt
 
 @geral
 Funcionalidade: Pesquisa de diretores e filmes
 
   Esquema do Cenario: Pesquisar diretor e filme no google
     Dado que informo o diretor "<diretor>" e o ano de nascimento "<nascimento>"
-    E informo o filme "<filme>" e ano de lançamento "<ano>"
+    E informo o filme "<filme>" e ano de lancamento "<ano>"
     Quando clico em pesquisar
     Então recebo o total de resultados para a pesquisa
     
